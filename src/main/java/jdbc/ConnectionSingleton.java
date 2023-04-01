@@ -1,6 +1,9 @@
 package jdbc;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -32,9 +35,10 @@ public class ConnectionSingleton {
 
     static private Properties getProperties() throws IOException {
         Properties prop = new Properties();
-        String path = System.getProperty("user.dir") + "/src/connection.properties";
+        String path = System.getProperty("user.dir") + "/src/main/resources/connection.properties";
         System.out.println(path);
-        prop.load(ConnectionSingleton.class.getResourceAsStream(path));
+        InputStream in = new FileInputStream(new File(path));
+        prop.load(in);
         return prop;
     }
 }

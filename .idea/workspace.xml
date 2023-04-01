@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/connection.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/CreateDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/CreatePeopleTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/InsertPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/QueryPerson1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/QueryPerson2.java" afterDir="false" />
+    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="feat: add initial code">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/jdbc" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +71,28 @@
       <option name="presentableId" value="Default" />
       <updated>1679934765566</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: add initial code">
+      <created>1680351395046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680351395046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.template" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add initial code" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ConnectionSingleton.class.getResourceAsStream(&quot;/main/java/resources/connection.properties&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
