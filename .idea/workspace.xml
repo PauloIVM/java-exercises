@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="feat: add initial code">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="fix: fix properties read file">
       <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680351395046</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: fix properties read file">
+      <created>1680357913366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680357913366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -86,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add initial code" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add initial code" />
+    <MESSAGE value="fix: fix properties read file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix properties read file" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
