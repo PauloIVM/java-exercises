@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="fix: fix properties read file">
+    <list default="true" id="f3143ef9-6f34-452f-8dd1-1ecf1acbac71" name="Changes" comment="chore: add ignore case">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/NewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/connection.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680357913366</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: add ignore case">
+      <created>1680945874634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680945874634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -93,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add initial code" />
     <MESSAGE value="fix: fix properties read file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fix properties read file" />
+    <MESSAGE value="chore: add ignore case" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add ignore case" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
